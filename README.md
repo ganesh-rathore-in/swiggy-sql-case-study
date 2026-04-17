@@ -1,10 +1,10 @@
-# 🍔 Swiggy Data Analysis — SQL Case Study
+#  Swiggy Data Analysis — SQL Case Study
 
 A end-to-end SQL case study analyzing restaurant data scraped from [Swiggy](https://www.swiggy.com/) — one of India's largest food delivery platforms. This project covers 14 business questions answered using MySQL, ranging from basic aggregations to subqueries and percentage analysis.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 swiggy-data-analysis/
@@ -20,7 +20,7 @@ swiggy-data-analysis/
 
 ---
 
-## 🗃️ Dataset Overview
+##  Dataset Overview
 
 ### `swiggy_data.csv` — Menu-Level Data (1,000 rows)
 | Column | Description |
@@ -54,7 +54,7 @@ swiggy-data-analysis/
 
 ---
 
-## 🛠️ Setup Instructions
+##  Setup Instructions
 
 ### Prerequisites
 - MySQL Server 8.0+
@@ -104,7 +104,7 @@ swiggy-data-analysis/
 
 ---
 
-## 📊 Case Study Questions & SQL Solutions
+## Case Study Questions & SQL Solutions
 
 ---
 
@@ -210,7 +210,7 @@ HAVING AVG(cost_per_person) > (SELECT AVG(cost_per_person) FROM swiggynew);
 
 **Insight:** Uses a correlated subquery in the `HAVING` clause to compare each restaurant's average cost to the dataset-wide average.
 
-> 📝 **Finding:** No restaurant in this dataset has an average cost higher than the overall average — suggesting prices are uniformly distributed.
+>  **Finding:** No restaurant in this dataset has an average cost higher than the overall average — suggesting prices are uniformly distributed.
 
 ---
 
@@ -301,11 +301,11 @@ LIMIT 1;
 
 **Insight:** Calculates a per-restaurant non-veg ratio using conditional aggregation — more accurate than dataset-level percentage calculations.
 
-> 📝 **Finding (original query note):** The original subquery approach returned the same percentage for all restaurants since it computed a global ratio. The corrected version above calculates it at the restaurant level.
+> **Finding (original query note):** The original subquery approach returned the same percentage for all restaurants since it computed a global ratio. The corrected version above calculates it at the restaurant level.
 
 ---
 
-## 🔍 Key Findings Summary
+##  Key Findings Summary
 
 | # | Question | Finding |
 |---|---|---|
@@ -326,7 +326,7 @@ LIMIT 1;
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - **Database:** MySQL 8.0
 - **Language:** SQL
@@ -335,14 +335,15 @@ LIMIT 1;
 
 ---
 
-## 👤 Author
+##  Author
 
 **Your Name**
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/YOUR_PROFILE)
+- GitHub: (https://github.com/ganesh-rathore-in)
+- LinkedIn: https://www.linkedin.com/in/ganesh-singh-rathore-39a3712b9
+Email : Ganeshrathorein@gmail.com
 
 ---
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
