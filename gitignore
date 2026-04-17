@@ -1,0 +1,11 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# SQL client files
+*.sql.bak
+*.sql~
+
+# IDE
+.vscode/
+.idea/
